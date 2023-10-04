@@ -8,10 +8,11 @@ void loop() {
   delay(1000); // 1초 동안 대기
 
   for (int i = 0; i < 5; i++) {
+    
     digitalWrite(PIN_LED, LOW); // LED를 끕니다
-    delay(200); // 0.2초 동안 대기
+    delay(100);
     digitalWrite(PIN_LED, HIGH); // LED를 다시 켭니다
-    delay(200); // 0.2초 동안 대기
+    delay(100); // 0.1초 동안 대기
   }
 
   digitalWrite(PIN_LED, LOW); // LED를 끕니다
